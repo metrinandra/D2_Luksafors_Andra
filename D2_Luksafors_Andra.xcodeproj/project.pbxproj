@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		804766F3261502CC0027BF12 /* car.json in Resources */ = {isa = PBXBuildFile; fileRef = 804766F2261502CB0027BF12 /* car.json */; };
+		80780124261469BE0029622F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80780123261469BE0029622F /* AppDelegate.swift */; };
+		80780126261469BE0029622F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80780125261469BE0029622F /* SceneDelegate.swift */; };
+		80780128261469BE0029622F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80780127261469BE0029622F /* ViewController.swift */; };
+		8078012B261469BE0029622F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80780129261469BE0029622F /* Main.storyboard */; };
+		8078012D261469C90029622F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8078012C261469C90029622F /* Assets.xcassets */; };
+		80780130261469C90029622F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8078012E261469C90029622F /* LaunchScreen.storyboard */; };
+		9E7374921ECCBF7915CE98B6 /* Pods_D2_Luksafors_Andra.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E0D209891B2E27F2F9C8C50 /* Pods_D2_Luksafors_Andra.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1EE839B8FB2FA26B192DF667 /* Pods-D2_Luksafors_Andra.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-D2_Luksafors_Andra.release.xcconfig"; path = "Target Support Files/Pods-D2_Luksafors_Andra/Pods-D2_Luksafors_Andra.release.xcconfig"; sourceTree = "<group>"; };
+		5E0D209891B2E27F2F9C8C50 /* Pods_D2_Luksafors_Andra.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_D2_Luksafors_Andra.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		804766F2261502CB0027BF12 /* car.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = car.json; sourceTree = "<group>"; };
+		80780120261469BE0029622F /* D2_Luksafors_Andra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = D2_Luksafors_Andra.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80780123261469BE0029622F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80780125261469BE0029622F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		80780127261469BE0029622F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8078012A261469BE0029622F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8078012C261469C90029622F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8078012F261469C90029622F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80780131261469C90029622F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2310EB5345FA40A71323943 /* Pods-D2_Luksafors_Andra.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-D2_Luksafors_Andra.debug.xcconfig"; path = "Target Support Files/Pods-D2_Luksafors_Andra/Pods-D2_Luksafors_Andra.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8078011D261469BE0029622F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E7374921ECCBF7915CE98B6 /* Pods_D2_Luksafors_Andra.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CC029D92D2F925420FDB224 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D2310EB5345FA40A71323943 /* Pods-D2_Luksafors_Andra.debug.xcconfig */,
+				1EE839B8FB2FA26B192DF667 /* Pods-D2_Luksafors_Andra.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2C5BAE008516974864905CF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D209891B2E27F2F9C8C50 /* Pods_D2_Luksafors_Andra.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		80780117261469BE0029622F = {
+			isa = PBXGroup;
+			children = (
+				80780122261469BE0029622F /* D2_Luksafors_Andra */,
+				80780121261469BE0029622F /* Products */,
+				0CC029D92D2F925420FDB224 /* Pods */,
+				2C5BAE008516974864905CF7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		80780121261469BE0029622F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80780120261469BE0029622F /* D2_Luksafors_Andra.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80780122261469BE0029622F /* D2_Luksafors_Andra */ = {
+			isa = PBXGroup;
+			children = (
+				804766F2261502CB0027BF12 /* car.json */,
+				80780123261469BE0029622F /* AppDelegate.swift */,
+				80780125261469BE0029622F /* SceneDelegate.swift */,
+				80780127261469BE0029622F /* ViewController.swift */,
+				80780129261469BE0029622F /* Main.storyboard */,
+				8078012C261469C90029622F /* Assets.xcassets */,
+				8078012E261469C90029622F /* LaunchScreen.storyboard */,
+				80780131261469C90029622F /* Info.plist */,
+			);
+			path = D2_Luksafors_Andra;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8078011F261469BE0029622F /* D2_Luksafors_Andra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80780134261469C90029622F /* Build configuration list for PBXNativeTarget "D2_Luksafors_Andra" */;
+			buildPhases = (
+				EDBEB5BC1FC6910937BEEEE0 /* [CP] Check Pods Manifest.lock */,
+				8078011C261469BE0029622F /* Sources */,
+				8078011D261469BE0029622F /* Frameworks */,
+				8078011E261469BE0029622F /* Resources */,
+				ECFC12095FCE929927D6AD1B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = D2_Luksafors_Andra;
+			productName = D2_Luksafors_Andra;
+			productReference = 80780120261469BE0029622F /* D2_Luksafors_Andra.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80780118261469BE0029622F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					8078011F261469BE0029622F = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 8078011B261469BE0029622F /* Build configuration list for PBXProject "D2_Luksafors_Andra" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80780117261469BE0029622F;
+			productRefGroup = 80780121261469BE0029622F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8078011F261469BE0029622F /* D2_Luksafors_Andra */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8078011E261469BE0029622F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80780130261469C90029622F /* LaunchScreen.storyboard in Resources */,
+				8078012D261469C90029622F /* Assets.xcassets in Resources */,
+				804766F3261502CC0027BF12 /* car.json in Resources */,
+				8078012B261469BE0029622F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ECFC12095FCE929927D6AD1B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-D2_Luksafors_Andra/Pods-D2_Luksafors_Andra-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-D2_Luksafors_Andra/Pods-D2_Luksafors_Andra-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-D2_Luksafors_Andra/Pods-D2_Luksafors_Andra-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDBEB5BC1FC6910937BEEEE0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-D2_Luksafors_Andra-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8078011C261469BE0029622F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80780128261469BE0029622F /* ViewController.swift in Sources */,
+				80780124261469BE0029622F /* AppDelegate.swift in Sources */,
+				80780126261469BE0029622F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		80780129261469BE0029622F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8078012A261469BE0029622F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8078012E261469C90029622F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8078012F261469C90029622F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80780132261469C90029622F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		80780133261469C90029622F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80780135261469C90029622F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2310EB5345FA40A71323943 /* Pods-D2_Luksafors_Andra.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6H855QS8AA;
+				INFOPLIST_FILE = D2_Luksafors_Andra/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.andrametrina.D2-Luksafors-Andra";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80780136261469C90029622F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EE839B8FB2FA26B192DF667 /* Pods-D2_Luksafors_Andra.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6H855QS8AA;
+				INFOPLIST_FILE = D2_Luksafors_Andra/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.andrametrina.D2-Luksafors-Andra";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8078011B261469BE0029622F /* Build configuration list for PBXProject "D2_Luksafors_Andra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80780132261469C90029622F /* Debug */,
+				80780133261469C90029622F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80780134261469C90029622F /* Build configuration list for PBXNativeTarget "D2_Luksafors_Andra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80780135261469C90029622F /* Debug */,
+				80780136261469C90029622F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80780118261469BE0029622F /* Project object */;
+}
